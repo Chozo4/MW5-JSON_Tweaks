@@ -8,6 +8,18 @@
 	"Equipment.Engine.STD": {
 		"rarity": 0.3
 	},
+	"Equipment.Engine.XL.Clan": {
+		"rarity": 0.08,
+		"installCostScaling": 12,
+		"installCost": 50000,
+		"removeCost": 30000
+	},
+	"Equipment.Engine.XXL.Clan": {
+		"rarity": 0.04,
+		"installCostScaling": 15,
+		"installCost": 60000,
+		"removeCost": 40000
+	},
 	"Equipment.Engine.XL": {
 		"rarity": 0.15,
 		"installCostScaling": 12,
@@ -15,26 +27,26 @@
 		"removeCost": 30000
 	},
 	"Equipment.Engine.XXL": {
-		"rarity": 0.15,
+		"rarity": 0.1,
 		"installCostScaling": 15,
 		"installCost": 60000,
 		"removeCost": 40000
 	},
 	"Equipment.SuperCharger.Class5": {
-		"engineRelativeWeight": 0.1
-	},
-	"Equipment.SuperCharger.Class4": {
-		"engineRelativeWeight": 0.1
-	},
-	"Equipment.SuperCharger.Class3": {
-		"engineRelativeWeight": 0.1
-	},
-	"Equipment.SuperCharger.Class2": {
-		"engineRelativeWeight": 0.1
-	},
-	"Equipment.SuperCharger.Class1": {
-		"engineRelativeWeight": 0.1
-	},
+        "engineRelativeWeight": 0.1
+    },
+    "Equipment.SuperCharger.Class4": {
+        "engineRelativeWeight": 0.1
+    },
+    "Equipment.SuperCharger.Class3": {
+        "engineRelativeWeight": 0.1
+    },
+    "Equipment.SuperCharger.Class2": {
+        "engineRelativeWeight": 0.1
+    },
+    "Equipment.SuperCharger.Class1": {
+        "engineRelativeWeight": 0.1
+    },
 	"Equipment.Cooling": {
 		"rarity": 0.3
 	},
@@ -99,28 +111,33 @@
 		"structureRepairDaysMulti": 2
 	},
 	"C79ENDO_L": {
+		"rarity": 0.1,
 		"maxTonnage": "35",
 		"structureRepairCostMulti": 4,
 		"structureRepairDaysMulti": 4
 	},
 	"C79ENDO_M": {
+		"rarity": 0.1,
 		"minTonnage": "40",
 		"maxTonnage": "55",
 		"structureRepairCostMulti": 4,
 		"structureRepairDaysMulti": 4
 	},
 	"C79ENDO_H": {
+		"rarity": 0.1,
 		"minTonnage": "60",
 		"maxTonnage": "75",
 		"structureRepairCostMulti": 4,
 		"structureRepairDaysMulti": 4
 	},
 	"C79ENDO": {
+		"rarity": 0.1,
 		"minTonnage": "80",
 		"structureRepairCostMulti": 4,
 		"structureRepairDaysMulti": 4
 	},
 	"FERRO_L": {
+		"rarity": 0.2,
 		"maxTonnage": "35",
 		"armorRepairCostMulti": 1.5,
 		"armorRepairDaysMulti": 1.5
@@ -165,23 +182,27 @@
 		"armorRepairDaysMulti": 1.25
 	},
 	"CFERRO_L": {
+		"rarity": 0.1,
 		"maxTonnage": "35",
 		"armorRepairCostMulti": 3,
 		"armorRepairDaysMulti": 3
 	},
 	"CFERRO_M": {
+		"rarity": 0.1,
 		"minTonnage": "40",
 		"maxTonnage": "55",
 		"armorRepairCostMulti": 3,
 		"armorRepairDaysMulti": 3
 	},
 	"CFERRO_H": {
+		"rarity": 0.1,
 		"minTonnage": "60",
 		"maxTonnage": "75",
 		"armorRepairCostMulti": 3,
 		"armorRepairDaysMulti": 3
 	},
 	"CFERRO": {
+		"rarity": 0.1,
 		"minTonnage": "80",
 		"armorRepairCostMulti": 3,
 		"armorRepairDaysMulti": 3
@@ -275,8 +296,8 @@
 	"GYRO_XXL": {
 		"fillerSlots": {
 			"CenterTorso": 2,
-			"LeftTorso": 1,
-			"RightTorso": 1
+			"LeftTorso": 2,
+			"RightTorso": 2
 		},
 		"relativeWeight": 0.25,
 		"rarity": 0.2,
@@ -351,6 +372,14 @@
 	},
 	"Equipment.BAP": {
 		"sensorFov": 360
+	},
+	"COCKPIT_SMALL": {
+		"torsoTwistRateMulti": 0.93,
+		"turnSpeedMulti": 0.93,
+		"accelerationMulti": 0.93,
+		"decelerationMulti": 0.93,
+		"rarity": 0.3,
+		"installCostScaling": 10
 	},
 	"ArmorIndustrial_L": {
 		"maxTonnage": "35",
