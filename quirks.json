@@ -3506,6 +3506,20 @@
 			}
 		}
 	},
+	"USS-HERO": {
+		"name": "Ursus Hero Armor",
+		"description": "The Ursus Hero comes with improved armor.",
+		"color": "(R=1,G=0,B=0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 15,
+				"RightTorso": 13,
+				"LeftTorso": 13,
+				"RightLeg": 10,
+				"LeftLeg": 10
+			}
+		}
+	},
 	"VND-HERO": {
 		"name": "Vindicator Hero Armor",
 		"description": "The Vindicator Hero comes equipped with higher density armor",

@@ -52,7 +52,8 @@
 	},
 	"ARC-LS": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"ARC-HERO"
 		]
 	},
 	"Assassin_MDL": {
@@ -349,7 +350,8 @@
 	},
 	"CTF-3X": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"CTF-HERO"
 		]
 	},
 	"CTF-4X": {
@@ -359,7 +361,8 @@
 	},
 	"CTF-5MOC": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"CTF-HERO"
 		]
 	},
 	"CTF-IM": {
@@ -415,12 +418,14 @@
 	},
 	"CN9-YLW2": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"CN9-HERO"
 		]
 	},
 	"CN9-YLW3": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"CN9-HERO"
 		]
 	},
 	"Champion_MDL": {
@@ -509,7 +514,8 @@
 	},
 	"CRB-BSC": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"CRB-HERO"
 		]
 	},
 	"CRB-FL": {
@@ -553,7 +559,8 @@
 	},
 	"DV-LB": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"DV-HERO"
 		]
 	},
 	"Dragon_MDL": {
@@ -648,7 +655,8 @@
 	},
 	"FLE-V8": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"FLE-HERO"
 		]
 	},
 	"TP-1R": {
@@ -669,12 +677,14 @@
 	},
 	"GHR-BD": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"GHR-HERO"
 		]
 	},
 	"GHR-GD": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"GHR-HERO"
 		]
 	},
 	"GHR-MJ": {
@@ -703,7 +713,8 @@
 	},
 	"GRF-1E2": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"GRF-HERO"
 		]
 	},
 	"GRF-6CS": {
@@ -822,7 +833,8 @@
 	},
 	"JVN-BH": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"JVN-HERO"
 		]
 	},
 	"JVN-HT": {
@@ -849,7 +861,8 @@
 	},
 	"JR7-CAT": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"JR7-HERO"
 		]
 	},
 	"JR7-O": {
@@ -978,7 +991,8 @@
 	},
 	"MAD-BH3": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"MAD-HERO"
 		]
 	},
 	"MAD-AL": {
@@ -999,7 +1013,8 @@
 	},
 	"MAL-4X": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"MAL-HERO"
 		]
 	},
 	"MAL-KO": {
@@ -1120,7 +1135,8 @@
 	},
 	"QKD-WW": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"QKD-HERO"
 		]
 	},
 	"QKD-IV4": {
@@ -1232,7 +1248,8 @@
 	},
 	"SHD-ZS": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"SHD-HERO"
 		]
 	},
 	"Spider_MDL": {
@@ -1334,7 +1351,8 @@
 	},
 	"USS-GL": {
 		"quirks": [
-			"HERO"
+			"HERO",
+			"USS-HERO"
 		]
 	},
 	"Vindicator_MDL": {
