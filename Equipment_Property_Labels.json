@@ -361,6 +361,10 @@
 		"label": "Cold storage upkeep cost modifier",
 		"unit": "multi"
 	},
+	"extraUpkeepCost": {
+		"label": "Additional upkeep costs",
+		"unit": "C-Bills"
+	},
 	"sellCostMulti": {
 		"label": "Resale cost modifier",
 		"unit": "multi"

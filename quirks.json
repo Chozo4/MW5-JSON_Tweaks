@@ -3971,6 +3971,96 @@
 			"upkeepCostMulti": 0.33
 		}
 	},
+        "TRIALMECH":{
+                "name": "On Loan",
+                "description": "This 'Mech was offered to your modest little startup of a Mercenary Company under a rather fantastic deal. What they didn't tell you however, is that you're going to be paying through the nose until you can get a 'Mech to replace it with.",
+                "color": "(R=0.86,G=0.08,B=0.24,A=1)",
+                "properties": {
+                        "sellCostMulti": 0,
+                        "extraUpkeepCost": 50000
+                }
+        },
+        "CLANOMNI":{
+                "name": "Clan OmniMech",
+                "description": "The way the Clans fought was well reflected in the designs of their Battlemechs, often being shown by how quick and maneuverable they were.",
+                "color": "(R=0.41,G=0.41,B=0.41,A=1)",
+                "properties": {
+                        "isClan": true,
+                        "topSpeedMulti": 1.067,
+                        "accelerationMulti": 1.1,
+                        "turnSpeedMulti": 1.1,
+                        "upkeepCostMulti": 1.1,
+                        "weapons": {
+                                "groups": [
+                                        {
+                                                "weaponGroupName": "Melee",
+                                                "tags": [
+                                                        "Weapon.Melee"
+                                                ],
+                                                "damageMulti": 0.5
+                                        }
+                                ]
+                        }
+                }
+        },
+        "CLAN":{
+                "name": "Clan BattleMech",
+                "description": "The way the Clans fought was well reflected in the designs of their Battlemechs, often being shown by how quick and maneuverable they were.",
+                "color": "(R=0.41,G=0.41,B=0.41,A=1)",
+                "properties": {
+                        "isClan": true,
+                        "topSpeedMulti": 1.067,
+                        "accelerationMulti": 1.1,
+                        "turnSpeedMulti": 1.1,
+                        "upkeepCostMulti": 1.25,
+                        "weapons": {
+                                "groups": [
+                                        {
+                                                "weaponGroupName": "Melee",
+                                                "tags": [
+                                                        "Weapon.Melee"
+                                                ],
+                                                "damageMulti": 0.8
+                                        }
+                                ]
+                        }
+                }
+        },
+        "ISOMNI":{
+                "name": "IS OmniMech",
+                "description": "An Inner Sphere OmniMech, able to switch components around in no time at all, something the great houses learned to harness from the invading Clans.",
+                "color": "(R=0.41,G=0.41,B=0.41,A=1)",
+                "properties": {
+                        "upkeepCostMulti": 0.9
+                }
+        },
+        "IS":{
+                "name": "IS BattleMech",
+                "description": "An Inner Sphere BattleMech, a tried and true design that lasted for centuries, and will last for millenia.",
+                "color": "(R=0.41,G=0.41,B=0.41,A=1)",
+                "properties": {
+                        "armorRepairCostMulti": 0.9
+                }
+        },
+        "PIRATE":{
+                "name": "Pirate BattleMech",
+                "description": "Designed in the deepest parts of the Periphery with god knows what facilities they could muster, it is a Battlemech that truly no nation but a pirate nation, would ever be proud of calling it their own.",
+                "color": "(R=0.41,G=0.41,B=0.41,A=1)",
+                "properties": {
+                        "upkeepCostMulti": 1.2,
+                        "armorMulti": 1.1
+                }
+        },
+        "PIRATEFRANKEN":{
+                "name": "Pirate FrankenMech",
+                "description": "Built out of parts from multiple different 'Mechs, it can almost be considered a new one in its own right and worthy of having a name to make it known - But a FrankenMech is not without its issues.",
+                "color": "(R=0.41,G=0.41,B=0.41,A=1)",
+                "properties":{
+                        "armorMulti": 1.1,
+                        "structureRepairCostMulti": 1.25,
+                        "structureRepairDaysMulti": 1.1
+                }
+        },
 	"HERO": {
 		"name": "Hero 'Mech",
 		"description": "This 'Mech was once piloted by a notable figure in the universe. What happened to them, is not clear, but what is clear is that their 'Mech is now yours to keep.",
@@ -3993,6 +4083,7 @@
 		"description": "Designed to fit the needs of the Star League Defense Force's Royal Divisions, it serves as a demonstration of the technological advancements made during that era.",
 		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
 		"properties": {
+                        "isRoyal": true,
 			"weapons": {
 				"groups": [{
 					"weaponGroupName": "Weapon",
@@ -4000,26 +4091,6 @@
 						"Weapon"
 					],
 					"heatMulti": 0.9
-				}]
-			}
-		}
-	},
-	"CLAN": {
-		"name": "Clan 'Mech",
-		"description": "The way the Clans fought was well reflected in the designs of their Battlemechs, often being shown by how quick and maneuverable they were.",
-		"color": "(R=0.41,G=0.41,B=0.41,A=1)",
-		"properties": {
-			"topSpeedMulti": 1.067,
-			"accelerationMulti": 1.1,
-			"turnSpeedMulti": 1.1,
-			"upkeepCostMulti": 1.2,
-			"weapons": {
-				"groups": [{
-					"weaponGroupName": "Melee",
-					"tags": [
-						"Weapon.Melee"
-					],
-					"damageMulti": 0.7
 				}]
 			}
 		}
@@ -4040,15 +4111,6 @@
 			}
 		}
 	},
-	"FRANKENMECH": {
-		"name": "FrankenMech",
-		"description": "Built out of parts from multiple different 'Mechs, it can almost be considered a new one in its own right, worthy of having a name to make it stand out - But a FrankenMech is not without its issues.",
-		"color": "(R=0.55,G=0.27,B=0.07,A=1)",
-		"properties": {
-			"upkeepCostMulti": 1.2,
-			"structureMulti": 1.1
-		}
-	},
 	"OMNIMECH": {
 		"name": "OmniMech",
 		"description": "An Omnimech, able to switch components around in no time at all.",
@@ -4062,6 +4124,7 @@
 		"description": "One of the earliest designs ever made in the history of the Battlemech, it either belongs sitting pretty in a museum, or someone was hard pressed into a corner to use one in combat.",
 		"color": "(R=0.55,G=0.27,B=0.07,A=1)",
 		"properties": {
+                        "isPrototype": true,
 			"sensorRangeMulti": 0.75,
 			"structureRepairCostMulti": 0.9,
 			"structureRepairDaysMulti": 0.9
@@ -4072,6 +4135,7 @@
 		"description": "A design in its testing stages, it must've been a pure run of bad luck for it to fall onto someone else's hands, someone that is more than likely interested in paying a lot of money for it.",
 		"color": "(R=0.47,G=0.71,B=1.0,A=1)",
 		"properties": {
+                        "isPrototype": true,
 			"sellCostMulti": 1.5
 		}
 	},
@@ -4345,6 +4409,15 @@
 			"decelerationMulti": 1.1
 		}
 	},
+	"PILOTHARD": {
+		"name": "Hard to Pilot",
+		"description": "This 'Mech was designed in such a way whereas it is inherently more difficult to pilot.",
+		"color": "(R=0.86,G=0.08,B=0.24,A=1)",
+		"properties": {
+			"turnSpeedMulti": 0.9,
+			"decelerationMulti": 0.9
+		}
+	},
 	"ARMOREDLEGS": {
 		"name": "Reinforced Legs",
 		"description": "This 'Mech has legs that were built for engaging in physical attacks such as kicking or DFAs.",
@@ -4361,6 +4434,7 @@
 		"description": "This 'Mech doesn't require much attention to keep it active and ready.",
 		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
 		"properties": {
+                        "armorRepairCostMulti": 0.9,
 			"upkeepCostMulti": 0.8
 		}
 	},
@@ -4406,6 +4480,17 @@
 		"color": "(R=0.86,G=0.08,B=0.24,A=1)",
 		"properties": {
 			"sellCostMulti": 0.5
+		}
+	},
+	"LCT-WEAKLEGS": {
+		"name": "Weak Legs",
+		"description": "The Locust is not designed to deal with the stresses associated with physical attacks.",
+		"color": "(R=0.86,G=0.08,B=0.24,A=1)",
+		"properties": {
+			"structureBonus": {
+				"RightLeg": -3,
+				"LeftLeg": -3
+			}
 		}
 	}
 }

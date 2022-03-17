@@ -1,6 +1,7 @@
 {
 	"Annihilator_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN"
 		]
 	},
@@ -12,6 +13,7 @@
 	},
 	"Archer_MDL": {
 		"quirks": [
+                        "IS",
 			"BATTLEFISTS",
 			"ARC-LRM",
 			"EXTRACOMMON"
@@ -58,6 +60,7 @@
 	},
 	"Assassin_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN"
 		]
 	},
@@ -75,12 +78,14 @@
 	},
 	"Atlas_MDL": {
 		"quirks": [
+                        "IS",
 			"BATTLEFISTS",
 			"COMMAND"
 		]
 	},
 	"Atlas_II_MDL": {
 		"quirks": [
+                        "IS",
 			"BATTLEFISTS",
 			"COMMAND"
 		]
@@ -102,12 +107,14 @@
 	},
 	"AtlasNorn_MDL": {
 		"quirks": [
+                        "IS",
 			"BATTLEFISTS",
 			"COMMAND"
 		]
 	},
 	"AtlasFDR_MDL": {
 		"quirks": [
+                        "IS",
 			"BATTLEFISTS",
 			"COMMAND"
 		]
@@ -147,6 +154,7 @@
 	},
 	"Awesome_MDL": {
 		"quirks": [
+                        "IS",
 			"AWS-PPC"
 		]
 	},
@@ -163,6 +171,7 @@
 	},
 	"Banshee_MDL": {
 		"quirks": [
+                        "IS",
 			"BNC-MELEE",
 			"RUGGED"
 		]
@@ -209,6 +218,11 @@
 			"PROTOTYPE"
 		]
 	},
+        "BNC-LJ": {
+                "quirks": [
+                        "HERO"
+                ]
+        },
 	"BNC-LM": {
 		"quirks": [
 			"BNC-LM",
@@ -223,6 +237,7 @@
 	},
 	"Battlemaster_MDL": {
 		"quirks": [
+                        "IS",
 			"COMMAND"
 		]
 	},
@@ -249,11 +264,13 @@
 	},
 	"Blackjack_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGIMPROVED"
 		]
 	},
 	"OmniBlackjack_MDL": {
 		"quirks": [
+                        "ISOMNI",
 			"TARGETINGIMPROVED",
 			"OMNIMECH"
 		]
@@ -296,6 +313,7 @@
 	},
 	"Blackknight_MDL": {
 		"quirks": [
+                        "IS",
 			"COMMAND"
 		]
 	},
@@ -328,11 +346,13 @@
 	},
 	"Caesar_MDL": {
 		"quirks": [
+                        "IS",
 			"TWISTARMS"
 		]
 	},
 	"Cataphract_MDL": {
 		"quirks": [
+                        "IS",
 			"STRUCTLEGS"
 		]
 	},
@@ -373,11 +393,13 @@
 	},
 	"Catapult_MDL": {
 		"quirks": [
+                        "IS",
 			"NIMBLEJUMPER"
 		]
 	},
 	"Catapultii_MDL": {
 		"quirks": [
+                        "IS",
 			"NIMBLEJUMPER",
 			"REPUTATIONPOOR"
 		]
@@ -401,13 +423,14 @@
 	},
 	"Centurion_MDL": {
 		"quirks": [
+                        "IS",
 			"CN9-SHIELD"
 		]
 	},
 	"OmniCenturion_MDL": {
 		"quirks": [
-			"CN9-SHIELD",
-			"OMNIMECH"
+                        "ISOMNI",
+			"CN9-SHIELD"
 		]
 	},
 	"CN9-YLW": {
@@ -430,6 +453,7 @@
 	},
 	"Champion_MDL": {
 		"quirks": [
+                        "IS",
 			"PILOTEASY"
 		]
 	},
@@ -457,6 +481,7 @@
 	},
 	"Charger_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN",
 			"REPUTATIONPOOR"
 		]
@@ -469,6 +494,7 @@
 	},
 	"Commando_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED"
 		]
 	},
@@ -487,7 +513,7 @@
 		"quirks": [
 			"EASYTOMAINTAIN",
 			"RUGGED1",
-			"FRANKENMECH"
+			"PIRATEFRANKEN"
 		]
 	},
 	"COR-RA": {
@@ -526,6 +552,7 @@
 	},
 	"Cyclops_MDL": {
 		"quirks": [
+                        "IS",
 			"BATTLECOMP",
 			"COWL"
 		]
@@ -538,6 +565,7 @@
 	},
 	"Dervish_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN"
 		]
 	},
@@ -565,6 +593,7 @@
 	},
 	"Dragon_MDL": {
 		"quirks": [
+                        "IS",
 			"COMBATCOMPUTER"
 		]
 	},
@@ -588,6 +617,7 @@
 	},
 	"Enforcer_MDL": {
 		"quirks": [
+                        "IS",
 			"ENF-AC10"
 		]
 	},
@@ -609,14 +639,15 @@
 	},
 	"Firestarter_MDL": {
 		"quirks": [
+                        "IS",
 			"FIRESTARTER",
 			"EXTRACOMMON"
 		]
 	},
 	"OmniFirestarter_MDL": {
 		"quirks": [
-			"ARMOREDHEAD",
-			"OMNIMECH"
+			"ISOMNI",
+			"ARMOREDHEAD"
 		]
 	},
 	"FS9-81X": {
@@ -638,8 +669,10 @@
 	},
 	"Flea_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN",
-			"SENSORSIMPROVED"
+			"PILOTHARD",
+                        "SENSORSIMPROVED"
 		]
 	},
 	"FLE-14": {
@@ -695,6 +728,14 @@
 	},
 	"Griffin_MDL": {
 		"quirks": [
+                        "IS",
+			"BATTLEFISTS",
+			"RUGGED1"
+		]
+	},
+        "GriffinPrim_MDL": {
+		"quirks": [
+                        "IS",
 			"BATTLEFISTS",
 			"RUGGED1"
 		]
@@ -736,6 +777,7 @@
 	},
 	"Hatamotochi_MDL": {
 		"quirks": [
+                        "IS",
 			"ARMOREDHEAD"
 		]
 	},
@@ -747,6 +789,7 @@
 	},
 	"Highlander_MDL": {
 		"quirks": [
+                        "IS",
 			"ARMOREDLEGS",
 			"COWL"
 		]
@@ -781,18 +824,21 @@
 	},
 	"Hollander_MDL": {
 		"quirks": [
+                        "IS",
 			"ARMOREDLEGS"
 		],
 		"scale": "X=0.8 Y=0.8 Z=0.8"
 	},
 	"Hunchback_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED",
 			"BATTLEFISTS"
 		]
 	},
 	"Hunchback_II_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED",
 			"PROTOTYPE",
 			"BATTLEFISTS"
@@ -800,6 +846,7 @@
 	},
 	"HunchbackFDR_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED",
 			"BATTLEFISTS"
 		]
@@ -817,6 +864,7 @@
 	},
 	"Jagermech_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGAA"
 		]
 	},
@@ -828,6 +876,7 @@
 	},
 	"Javelin_MDL": {
 		"quirks": [
+                        "IS",
 			"MAINTENANCEEASY"
 		]
 	},
@@ -851,6 +900,7 @@
 	},
 	"Jenner_MDL": {
 		"quirks": [
+                        "IS",
 			"COMBATCOMPUTER"
 		]
 	},
@@ -873,6 +923,7 @@
 	},
 	"Kingcrab_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGIMPROVED",
 			"REINFORCEDCOCKPIT"
 		]
@@ -907,6 +958,7 @@
 	},
 	"Kintaro_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED"
 		]
 	},
@@ -923,14 +975,17 @@
 	},
 	"Locust_MDL": {
 		"quirks": [
+                        "IS",
 			"LOCUST",
 			"PILOTEASY",
-			"COMPACT"
+			"COMPACT",
+			"LCT-WEAKLEGS"
 		]
 	},
 	"Locustiic_MDL": {
 		"quirks": [
-			"CLAN"
+			"CLAN",
+			"COMPACT"
 		]
 	},
 	"LCT-1Vb": {
@@ -946,13 +1001,13 @@
 	},
 	"MadDog_MDL": {
 		"quirks": [
-			"CLAN",
-			"OMNIMECH"
+			"CLANOMNI"
 		]
 	},
 	"MDD-PRIME": {},
 	"Marauder_MDL": {
 		"quirks": [
+                        "IS",
 			"COMMAND"
 		]
 	},
@@ -964,6 +1019,7 @@
 	},
 	"Marauderii_MDL": {
 		"quirks": [
+                        "IS",
 			"COMBATCOMPUTER"
 		]
 	},
@@ -1003,6 +1059,7 @@
 	},
 	"Mauler_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGIMPROVED"
 		]
 	},
@@ -1025,6 +1082,7 @@
 	},
 	"Nightstar_MDL": {
 		"quirks": [
+                        "IS",
 			"COMMAND",
 			"REINFORCEDCOCKPIT",
 			"NSR-DIFFICULTTOMAINTAIN"
@@ -1044,6 +1102,7 @@
 	},
 	"Orion_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGAA",
 			"EASYTOMAINTAIN",
 			"RUGGED1"
@@ -1069,6 +1128,7 @@
 	},
 	"Panther_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGIMPROVED",
 			"NIMBLEJUMPER"
 		]
@@ -1081,12 +1141,14 @@
 	},
 	"Phoenixhawk_MDL": {
 		"quirks": [
+                        "IS",
 			"NIMBLEJUMPER"
 		]
 	},
 	"Fenikkusu_MDL": {
 		"scale": "X=0.9 Y=0.9 Z=0.9",
 		"quirks": [
+                        "IS",
 			"TARGETINGIMPROVED"
 		]
 	},
@@ -1130,6 +1192,7 @@
 	},
 	"Quickdraw_MDL": {
 		"quirks": [
+                        "IS",
 			"TARGETINGAA"
 		]
 	},
@@ -1147,6 +1210,7 @@
 	},
 	"Raven_MDL": {
 		"quirks": [
+                        "IS",
 			"RVN-SENSOR"
 		]
 	},
@@ -1177,15 +1241,59 @@
 			"RVN-HERO"
 		]
 	},
+	"Rifleman_MDL": {
+		"quirks": [
+                        "IS",
+			"TARGETINGAA"
+                ]
+        },
+        "RiflemanPrim_MDL": {
+                "scale": "X=0.9 Y=0.9 Z=0.9",
+                "quirks": [
+                        "IS",
+                        "TARGETINGAA"
+                ]
+        },
+        "Riflemaniic_MDL": {
+                "quirks": [
+                        "CLAN"
+                ]
+        },
+        "RFL-1N": {
+                "quirks": [
+                        "PRIMITIVE"
+                ]
+        },
+        "RFL-2N": {
+                "quirks": [
+                        "PRIMITIVE"
+                ]
+        },
+        "RFL-3N-2": {
+                "quirks": [
+                        "ROYAL"
+                ]
+        },
+        "RFL-RES": {
+                "quirks": [
+                        "ROYAL",
+                        "HERO"
+                ]
+        },
+        "RFL-5CS": {
+                "quirks": [
+                        "CLANBUSTER"
+                ]
+        },
+        "RFL-X3": {
+                "quirks": [
+                        "PROTOTYPE"
+		]
+	},
 	"RFL-DB": {
 		"quirks": [
 			"RFL-DB",
 			"RFL-HERO"
-		]
-	},
-	"Rifleman_MDL": {
-		"quirks": [
-			"TARGETINGAA"
 		]
 	},
 	"RFL-DNA": {
@@ -1200,8 +1308,29 @@
 			"RFL-HERO"
 		]
 	},
+        "Roughneck_MDL": {
+                "quirks": [
+                        "IS"
+                ]
+        },
+        "SavageWolf_MDL": {
+                "quirks": [
+                        "CLANOMNI"
+                ]
+        },
+        "MCIV-PR": {
+                "quirks": [
+                        "PROTOTYPE"
+                ]
+        },
+        "MCIV-PR2": {
+                "quirks": [
+                        "PROTOTYPE"
+                ]
+        },
 	"Shadowhawk_MDL": {
 		"quirks": [
+                        "IS",
 			"EXTRACOMMON",
 			"BATTLEFISTS",
 			"RUGGED1"
@@ -1209,9 +1338,15 @@
 	},
 	"ShadowhawkPHX_MDL": {
 		"quirks": [
+                        "IS",
 			"EXTRACOMMON",
 			"BATTLEFISTS",
 			"RUGGED1"
+                ]
+        },
+        "SHD-1R": {
+                "quirks": [
+                        "PRIMITIVE"
 		]
 	},
 	"SHD-GD": {
@@ -1254,6 +1389,7 @@
 	},
 	"Spider_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN",
 			"NIMBLEJUMPER"
 		]
@@ -1266,6 +1402,7 @@
 	},
 	"Stalker_MDL": {
 		"quirks": [
+                        "IS",
 			"COMBATCOMPUTER",
 			"MISSILEBOAT"
 		]
@@ -1283,6 +1420,7 @@
 	},
 	"42_Stinger_MDL": {
 		"quirks": [
+                        "IS",
 			"EXTRACOMMON"
 		],
 		"scale": "X=0.6 Y=0.6 Z=0.6"
@@ -1294,6 +1432,7 @@
 	},
 	"Thunderbolt_MDL": {
 		"quirks": [
+                        "IS",
 			"SENSORSFOV",
 			"RUGGED2"
 		]
@@ -1309,15 +1448,15 @@
 			"TDR-HERO"
 		]
 	},
-	"Timberwolf_MDL": {
+	"Timberwolf_MDL_V2": {
 		"quirks": [
-			"CLAN",
-			"OMNIMECH"
+			"CLANOMNI"
 		]
 	},
 	"TBR-PRIME": {},
 	"Trebuchet_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN",
 			"PILOTEASY"
 		]
@@ -1330,6 +1469,7 @@
 	},
 	"Urbanmech_MDL": {
 		"quirks": [
+                        "IS",
 			"TWISTURBIE",
 			"UM-ASSAULT"
 		]
@@ -1355,25 +1495,9 @@
 			"USS-HERO"
 		]
 	},
-	"Vindicator_MDL": {
-		"quirks": [
-			"RUGGED1"
-		]
-	},
-	"VND-1SIB": {
-		"quirks": [
-			"VND-1SIB",
-			"VND-HERO"
-		]
-	},
-	"VL-BL": {
-		"quirks": [
-			"VL-BL",
-			"VL-HERO"
-		]
-	},
 	"Victor_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED1"
 		]
 	},
@@ -1389,13 +1513,33 @@
 			"VTR-HERO"
 		]
 	},
+	"Vindicator_MDL": {
+		"quirks": [
+                        "IS",
+			"RUGGED1"
+		]
+	},
+	"VND-1SIB": {
+		"quirks": [
+			"VND-1SIB",
+			"VND-HERO"
+		]
+	},
+	"VL-BL": {
+		"quirks": [
+			"VL-BL",
+			"VL-HERO"
+		]
+	},
 	"Vulcan_MDL": {
 		"quirks": [
+                        "IS",
 			"NIMBLEJUMPER"
 		]
 	},
 	"Warhammer_MDL": {
 		"quirks": [
+                        "IS",
 			"RUGGED2"
 		]
 	},
@@ -1409,6 +1553,11 @@
 			"CLANBUSTER"
 		]
 	},
+        "WHM-BI": {
+                "quirks": [
+                        "HERO"
+                ]
+        },
 	"WHM-BW": {
 		"quirks": [
 			"WHM-BW",
@@ -1417,6 +1566,7 @@
 	},
 	"Wolfhound_MDL": {
 		"quirks": [
+                        "IS",
 			"COOLINGLASER",
 			"EASYTOMAINTAIN"
 		]
@@ -1429,6 +1579,7 @@
 	},
 	"Wolverine_MDL": {
 		"quirks": [
+                        "IS",
 			"EXTRACOMMON"
 		]
 	},
@@ -1446,6 +1597,7 @@
 	},
 	"Zeus_MDL": {
 		"quirks": [
+                        "IS",
 			"EASYTOMAINTAIN",
 			"PILOTEASY"
 		]
