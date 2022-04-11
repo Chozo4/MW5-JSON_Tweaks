@@ -305,6 +305,9 @@
 		"rarity": 0.5
 	},
 	"GYRO_XL": {
+		"fillerSlots": {
+			"CenterTorso": 1
+		},
 		"relativeWeight": 0.5,
 		"rarity": 0.4,
 		"installCostScaling": 10
