@@ -650,9 +650,6 @@
 		]
 	},
 	"COCKPIT_ARMORED": {
-		"fillerSlots": {
-			"Head": 1
-		},
 		"armorComponentFront": 8,
 		"installCostScaling": 10
 	},
@@ -670,20 +667,7 @@
 		},
 		"installCostScaling": 10
 	},
-	"COCKPIT_CC": {
-		"fillerSlots": {
-			"Head": 1
-		}
-	},
-	"COCKPIT_PRIM": {
-		"fillerSlots": {
-			"Head": 1
-		}
-	},
 	"COCKPIT_CCArmored": {
-		"fillerSlots": {
-			"Head": 1
-		},
 		"armorComponentFront": 8
 	},
 	"Equipment.Cockpit.Interface": {
@@ -695,15 +679,7 @@
 		"installCostScaling": 10
 	},
 	"COCKPIT_VDNIArmored": {
-		"fillerSlots": {
-			"Head": 1
-		},
 		"armorComponentFront": 8
-	},
-	"COCKPIT_VDNI": {
-		"fillerSlots": {
-			"Head": 1
-		}
 	},
 	"TCOMP": {
 		"name": "FCS: Energy",
