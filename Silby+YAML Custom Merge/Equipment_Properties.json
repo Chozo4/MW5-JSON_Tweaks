@@ -1,4 +1,8 @@
 {
+
+    	"Equipment.Engine": {
+       		 "slots": 4
+    	},
 	"Equipment.Engine.LFE": {
 		"rarity": 0.2,
 		"installCostScaling": 10,
@@ -9,13 +13,13 @@
 		"rarity": 0.3
 	},
 	"Equipment.Engine.XL.Clan": {
-		"rarity": 0.08,
+		"rarity": 0.1,
 		"installCostScaling": 12,
 		"installCost": 50000,
 		"removeCost": 30000
 	},
 	"Equipment.Engine.XXL.Clan": {
-		"rarity": 0.04,
+		"rarity": 0.05,
 		"installCostScaling": 15,
 		"installCost": 60000,
 		"removeCost": 40000
@@ -27,7 +31,7 @@
 		"removeCost": 30000
 	},
 	"Equipment.Engine.XXL": {
-		"rarity": 0.1,
+		"rarity": 0.15,
 		"installCostScaling": 15,
 		"installCost": 60000,
 		"removeCost": 40000
@@ -241,6 +245,10 @@
 	"TSMYOMER": {
 		"minTonnage": "80"
 	},
+    	"YAML_VANILLA_COUNTERWEIGHT": {
+        	"fixed": "true",
+        	"relativeWeight": 0
+    	},
 	"RSTRUCT_L": {
 		"maxTonnage": "35",
 		"structureMulti": "2",
@@ -297,16 +305,12 @@
 		"rarity": 0.5
 	},
 	"GYRO_XL": {
-		"fillerSlots": {
-			"CenterTorso": 2
-		},
 		"relativeWeight": 0.5,
 		"rarity": 0.4,
 		"installCostScaling": 10
 	},
 	"GYRO_XXL": {
 		"fillerSlots": {
-			"CenterTorso": 2,
 			"LeftTorso": 2,
 			"RightTorso": 2
 		},
@@ -315,6 +319,11 @@
 		"loreAccurate": false,
 		"installCostScaling": 15
 	},
+   	"GYRO_COMPACT": {
+       		"installCostScaling": 10,
+       		"rarity": 0.2,
+      		"relativeWeight": 1.5
+   	},
 	"GYRO_UL": {
 		"fillerSlots": {
 			"CenterTorso": 2
