@@ -402,6 +402,14 @@
 		"torsoTwistRateMulti": 1.4,
 		"installCostScaling": 10
 	},
+	"GYRO_XL": {
+		"fillerSlots": {
+			"CenterTorso": 1
+		},
+		"relativeWeight": 0.5,
+		"rarity": 0.4,
+		"installCostScaling": 10
+	},
 	"Equipment.SuperCharger.Class5": {
         "engineRelativeWeight": 0.1,
 		"color": "(R=0.009721,G=1.0,B=0.514918,A=1)"
