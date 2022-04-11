@@ -306,7 +306,9 @@
 	},
 	"GYRO_XXL": {
 		"fillerSlots": {
-			"CenterTorso": 2
+			"CenterTorso": 2,
+			"LeftTorso": 2,
+			"RightTorso": 2
 		},
 		"relativeWeight": 0.25,
 		"rarity": 0.2,
