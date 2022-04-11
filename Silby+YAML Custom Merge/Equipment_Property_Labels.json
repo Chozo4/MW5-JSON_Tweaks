@@ -8,10 +8,12 @@
 		"unit": "tons"
 	},
 	"armorComponentFront": {
-		"label": "Front component armor bonus"
+		"label": "Front component armor bonus",
+        	"unit": "modifier"
 	},
 	"armorComponentRear": {
-		"label": "Rear component armor bonus"
+		"label": "Rear component armor bonus",
+        	"unit": "modifier"
 	},
 	"armorComponentFrontMulti": {
 		"label": "Front component armor modifier",
@@ -26,40 +28,52 @@
 		"unit": "multi"
 	},
 	"armorBonus/Head": {
-		"label": "Head armor bonus"
+		"label": "Head armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/CenterTorso": {
-		"label": "Center torso armor bonus"
+		"label": "Center torso armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/RearCenterTorso": {
-		"label": "Rear center torso armor bonus"
+		"label": "Rear center torso armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/RightTorso": {
-		"label": "Right torso armor bonus"
+		"label": "Right torso armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/RearRightTorso": {
-		"label": "Rear right torso armor bonus"
+		"label": "Rear right torso armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/LeftTorso": {
-		"label": "Left torso armor bonus"
+		"label": "Left torso armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/RearLeftTorso": {
-		"label": "Rear left torso armor bonus"
+		"label": "Rear left torso armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/RightLeg": {
-		"label": "Right leg armor bonus"
+		"label": "Right leg armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/LeftLeg": {
-		"label": "Left leg armor bonus"
+		"label": "Left leg armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/RightArm": {
-		"label": "Right arm armor bonus"
+		"label": "Right arm armor bonus",
+        	"unit": "modifier"
 	},
 	"armorBonus/LeftArm": {
-		"label": "Left arm armor bonus"
+		"label": "Left arm armor bonus",
+        	"unit": "modifier"
 	},
 	"structureComponent": {
-		"label": "Component structure bonus"
+		"label": "Component structure bonus",
+        	"unit": "modifier"
 	},
 	"structureComponentMulti": {
 		"label": "Component structure modifier",
@@ -70,28 +84,36 @@
 		"unit": "multi"
 	},
 	"structureBonus/Head": {
-		"label": "Head structure bonus"
+		"label": "Head structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/CenterTorso": {
-		"label": "Center torso structure bonus"
+		"label": "Center torso structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/RightTorso": {
-		"label": "Right torso structure bonus"
+		"label": "Right torso structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/LeftTorso": {
-		"label": "Left torso structure bonus"
+		"label": "Left torso structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/RightLeg": {
-		"label": "Right leg structure bonus"
+		"label": "Right leg structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/LeftLeg": {
-		"label": "Left leg structure bonus"
+		"label": "Left leg structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/RightArm": {
-		"label": "Right arm structure bonus"
+		"label": "Right arm structure bonus",
+        	"unit": "modifier"
 	},
 	"structureBonus/LeftArm": {
-		"label": "Left arm structure bonus"
+		"label": "Left arm structure bonus",
+        	"unit": "modifier"
 	},
 	"topSpeedMulti": {
 		"label": "Top speed modifier",
@@ -121,6 +143,46 @@
 		"label": "Turn speed modifier",
 		"unit": "multi"
 	},
+   	"ballisticSkillBonus": {
+        	"label": "Ballistics pilot skill modifier",
+        	"unit": "modifier"
+    	},
+    	"decelerationMulti": {
+        	"label": "Deceleration modifier",
+        	"unit": "multi"
+    	},
+    	"energySkillBonus": {
+        	"label": "Energy pilot skill modifier",
+        	"unit": "modifier"
+    	},
+    	"evasionSkillBonus": {
+        	"label": "Evasion pilot skill modifier",
+        	"unit": "modifier"
+    	},
+    	"gunnerySkillBonus": {
+        	"label": "Gunnery pilot skill modifier",
+        	"unit": "modifier"
+    	},
+    	"heatCapacityBonus": {
+        	"label": "Heat capacity modifier",
+        	"unit": "modifier"
+    	},
+    	"heatManagementSkillBonus": {
+        	"label": "Heat management pilot skill modifier",
+        	"unit": "modifier"
+    	},
+    	"missileSkillBonus": {
+        	"label": "Missile pilot skill modifier",
+        	"unit": "modifier"
+    	},
+    	"pilotingSkillBonus": {
+        	"label": "Piloting skill modifier",
+        	"unit": "modifier"
+    	},
+    	"shieldingSkillBonus": {
+        	"label": "Shielding pilot skill modifier",
+        	"unit": "modifier"
+    	},
 	"accelerationMulti": {
 		"label": "Acceleration modifier",
 		"unit": "multi"
@@ -225,6 +287,10 @@
 		"label": "Missile damage modifier",
 		"unit": "multi"
 	},
+    	"weapons/missileAmmoMulti": {
+        	"label": "Missile ammo modifier",
+        	"unit": "multi"
+    	},
 	"weapons/missileCooldownMulti": {
 		"label": "Missile cooldown modifier",
 		"unit": "multi"
@@ -269,6 +335,10 @@
 		"label": "PPC damage modifier",
 		"unit": "multi"
 	},
+    	"weapons/ppcAmmoMulti": {
+        	"label": "PPC ammo modifier",
+        	"unit": "multi"
+    	},
 	"weapons/ppcCooldownMulti": {
 		"label": "PPC cooldown modifier",
 		"unit": "multi"
@@ -309,10 +379,18 @@
 		"label": "AMS optimal range modifier",
 		"unit": "multi"
 	},
+    	"weapons/amsAmmoMulti": {
+        	"label": "AMS ammo modifier",
+        	"unit": "multi"
+    	},
 	"weapons/amsMaxRangeMulti": {
 		"label": "AMS max range modifier",
 		"unit": "multi"
 	},
+    	"weapons/ballisticAmmoMulti": {
+        	"label": "Ballistic ammo modifier",
+        	"unit": "multi"
+    	},
 	"jumpJetXyAccelMulti": {
 		"label": "Jump Jet XY acceleration",
 		"unit": "multi"
