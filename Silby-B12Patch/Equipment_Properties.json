@@ -402,14 +402,6 @@
 		"torsoTwistRateMulti": 1.4,
 		"installCostScaling": 10
 	},
-	"GYRO_XL": {
-		"fillerSlots": {
-			"CenterTorso": 1
-		},
-		"relativeWeight": 0.5,
-		"rarity": 0.4,
-		"installCostScaling": 10
-	},
 	"Equipment.SuperCharger.Class5": {
         "engineRelativeWeight": 0.1,
 		"color": "(R=0.009721,G=1.0,B=0.514918,A=1)"
@@ -461,6 +453,14 @@
 		"turnSpeedMulti": 0.95,
 		"rarity": 0.1,
 		"loreAccurate": false,
+		"installCostScaling": 10
+	},
+	"GYRO_XL": {
+		"fillerSlots": {
+			"CenterTorso": 1
+		},
+		"relativeWeight": 0.5,
+		"rarity": 0.4,
 		"installCostScaling": 10
 	},
     "Equipment.SuperCharger.Class4": {
@@ -650,6 +650,9 @@
 		]
 	},
 	"COCKPIT_ARMORED": {
+		"fillerSlots": {
+			"Head": 1
+		},
 		"armorComponentFront": 8,
 		"installCostScaling": 10
 	},
@@ -667,7 +670,20 @@
 		},
 		"installCostScaling": 10
 	},
+	"COCKPIT_CC": {
+		"fillerSlots": {
+			"Head": 1
+		}
+	},
+	"COCKPIT_PRIM": {
+		"fillerSlots": {
+			"Head": 1
+		}
+	},
 	"COCKPIT_CCArmored": {
+		"fillerSlots": {
+			"Head": 1
+		},
 		"armorComponentFront": 8
 	},
 	"Equipment.Cockpit.Interface": {
@@ -679,7 +695,15 @@
 		"installCostScaling": 10
 	},
 	"COCKPIT_VDNIArmored": {
+		"fillerSlots": {
+			"Head": 1
+		},
 		"armorComponentFront": 8
+	},
+	"COCKPIT_VDNI": {
+		"fillerSlots": {
+			"Head": 1
+		}
 	},
 	"TCOMP": {
 		"name": "FCS: Energy",
