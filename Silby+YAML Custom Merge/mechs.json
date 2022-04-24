@@ -1583,6 +1583,11 @@
 			"EXTRACOMMON"
 		]
 	},
+    	"WTH-5S": {
+        	"quirks": [
+            	"PROTOTYPE"
+        	]
+    	},
 	"WVR-7H": {
 		"quirks": [
 			"WVR-7H",
