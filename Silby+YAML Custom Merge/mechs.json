@@ -32,7 +32,7 @@
 	},
 	"ARC-2Rb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"ARC-5CS": {
@@ -92,17 +92,17 @@
 	},
 	"AS7-D-H": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"AS7-D-H2": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"AS7-D-HT": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"AtlasNorn_MDL": {
@@ -238,17 +238,19 @@
 	"Battlemaster_MDL": {
 		"quirks": [
                         "IS",
-			"COMMAND"
+			"COMMAND",
+            		"EASYTOMAINTAIN",
+            		"RUGGED1"
 		]
 	},
 	"BLR-1Gb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"BLR-1Gbc": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"BLR-1GHE": {
@@ -319,7 +321,7 @@
 	},
 	"BL-6b-KNT": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"BL-9-KNT": {
@@ -394,7 +396,8 @@
 	"Catapult_MDL": {
 		"quirks": [
                         "IS",
-			"NIMBLEJUMPER"
+			"NIMBLEJUMPER",
+          	  	"MISSILEBOAT"
 		]
 	},
 	"Catapultii_MDL": {
@@ -406,7 +409,7 @@
 	},
 	"CPLT-C1b": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"CPLT-J": {
@@ -459,7 +462,7 @@
 	},
 	"CHP-1Nb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"CHP-INV": {
@@ -535,9 +538,14 @@
 	},
 	"CRB-27b": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
+    	"CRB-27SL": {
+        	"quirks": [
+            	"SLDF"
+        	]
+   	},
 	"CRB-BSC": {
 		"quirks": [
 			"HERO",
@@ -621,6 +629,16 @@
 			"ENF-AC10"
 		]
 	},
+    	"ENF-4P": {
+        	"quirks": [
+            	"ENF-AC20"
+        	]
+    	},
+    	"ENF-5P": {
+        	"quirks": [
+            	"ENF-UAC5"
+        	]
+    	},
 	"ENF-7D": {
 		"quirks": [
 			"COMMAND"
@@ -807,7 +825,7 @@
 	},
 	"HGN-732b": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"HGN-HM": {
@@ -930,12 +948,12 @@
 	},
 	"KGC-000b": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"KGC-010": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"KGC-KJ": {
@@ -964,7 +982,7 @@
 	},
 	"KTO-19b": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"KTO-GB": {
@@ -990,7 +1008,7 @@
 	},
 	"LCT-1Vb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"LCT-PB": {
@@ -1025,7 +1043,7 @@
 	},
 	"MAD-2R": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"MAD-4X": {
@@ -1154,17 +1172,17 @@
 	},
 	"PXH-1b": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"PXH-1bC": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"PXH-1c": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"PXH-7CS": {
@@ -1271,12 +1289,12 @@
         },
         "RFL-3N-2": {
                 "quirks": [
-                        "ROYAL"
+                        "SLDF"
                 ]
         },
         "RFL-RES": {
                 "quirks": [
-                        "ROYAL",
+                        "SLDF",
                         "HERO"
                 ]
         },
@@ -1357,7 +1375,7 @@
 	},
 	"SHD-2Hb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"SHD-2Ht": {
@@ -1409,7 +1427,7 @@
 	},
 	"STK-3Fb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"STK-M": {
@@ -1427,7 +1445,7 @@
 	},
 	"STG-3Gb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"Thunderbolt_MDL": {
@@ -1439,7 +1457,7 @@
 	},
 	"TDR-5Sb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"TDR-5S-T": {
@@ -1545,7 +1563,7 @@
 	},
 	"WHM-6Rb": {
 		"quirks": [
-			"ROYAL"
+			"SLDF"
 		]
 	},
 	"WHM-7CS": {
@@ -1591,7 +1609,8 @@
 	"WVR-7H": {
 		"quirks": [
 			"WVR-7H",
-			"WVR-HERO"
+			"WVR-HERO",
+			"SLDF"
 		]
 	},
 	"WVR-Q": {
