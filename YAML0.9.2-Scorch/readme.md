@@ -1,1 +1,1 @@
-Re-added Scorch quirks from YAML0.9.0 as per user request under the YAML bug reports. This applies only to Yet Another MechLab 0.9.2.
+Re-added Scorch quirks from YAML0.9.0 as per user request under the YAML bug reports. This applies only to Yet Another MechLab 0.9.2. Simply download the respective mechs.json + quirks.json and overwrite the existing ones under "(MW5Mercs\Mods\YetAnotherMechlab\Resources".
