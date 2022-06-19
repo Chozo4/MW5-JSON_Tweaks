@@ -1,3 +1,3 @@
-Current as of Silby Overhaul Beta15 and YAML 0.9.5.1<br><br>
+Current as of Silby Overhaul Beta15 and YAML 0.12.1<br><br>
 
 These tweaks are a merge of the features and quirks of both mods as one tends to overwrite the other. Many of the mech quirks were overall simplistic (such as all hero mechs getting a heat output reduction) and overwrote the original quirks from YAML (such as hero mechs having customized quirks for the chassis itself or the urbie having an armour boost). As a result I have merged both into one to combine the quirks of both worlds (within reason) with a couple adjustments of my own added over time to bring the quirks more lore aligned.<br><br>Simply overwrite the json files with these in the 'resources' folder of Silby's overhaul.<br><br>The overall comparison is done by a simple DIFF between the stock JSON between versions and then merged over into anew.
