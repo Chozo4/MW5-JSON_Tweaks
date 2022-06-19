@@ -1,4 +1,182 @@
 ﻿{
+	"NARROW_PROFILE": {
+		"name": "Narrow Profile",
+		"description": "The unit is constructed to present a very narrow or low profile to any incoming fire.",
+		"properties": {
+			"dmgEvasionChance": 0.05
+		}
+	},
+	"QKD-SC": {
+		"name": "Scrapper",
+		"description": "Unique set of quirks for the Quickdraw Scrapper Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 200,
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile"
+						],
+						"cooldownMulti": 0.8,
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"HTM-ON": {
+		"name": "Onimaru",
+		"description": "Unique set of quirks for the Hatamoto-Chi Onimaru Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon"
+						],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile"
+						],
+						"speedMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"HGN-RS": {
+		"name": "Redshank",
+		"description": "Unique set of quirks for the Highlander Redshank Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.15,
+			"jumpJetInitialZVelocityMulti": 1.15,
+			"jumpJetHeatMulti": 0.8,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon"
+						],
+						"cooldownMulti": 0.85,
+						"heatMulti": 0.9,
+						"speedMulti": 1.1,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"HCT-HERO": {
+		"name": "Hatchetman Hero Endurance",
+		"description": "The Hatchetman Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 10,
+				"RightTorso": 8,
+				"LeftTorso": 8,
+				"RightArm": 10,
+				"LeftArm": 4,
+				"RightLeg": 8,
+				"LeftLeg": 8
+			}
+		}
+	},
+	"HCT-MA": {
+		"name": "Man-at-Arms",
+		"description": "Unique set of quirks for the Hatchetman Man-at-Arms Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"cooldownMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"cooldownMulti": 0.85
+					}
+				]
+			}
+		}
+	},
+	"BL-P-KNT2": {
+		"name": "Partisan 2",
+		"description": "Unique set of quirks for the Black Knight Partisan 2 Hero 'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile"
+						],
+						"cooldownMulti": 0.85
+					},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"cooldownMulti": 0.9,
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"MELEE": {
+		"name": "Melee Specialization",
+		"description": "This 'Mech is designed or upgraded for melee combat",
+		"color": "(R=1.0,G=0.901961,B=0.0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee"
+						],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.9
+					}
+				]
+			}
+		}
+	},
 	"EASYTOMAINTAIN": {
 		"name": "Easy To Maintain",
 		"description": "This 'Mech is designed for easy maintenance",

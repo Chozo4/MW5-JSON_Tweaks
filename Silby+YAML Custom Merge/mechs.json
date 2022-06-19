@@ -75,6 +75,11 @@
 			"TWISTURBIE"
 		]
 	},
+    	"ARC-2P": {
+        	"quirks": [
+            	"MELEE"
+        	]
+    	},
 	"ARC-2Rb": {
 		"quirks": [
 			"SLDF"
@@ -145,7 +150,8 @@
 	"AS7-D-Y": {
 		"quirks": [
 			"AS7-D-Y",
-			"AS7-HERO"
+			"AS7-HERO",
+		        "SLDF"
 		]
 	},
 	"AS7-K3": {
@@ -159,11 +165,21 @@
 			"AS7-HERO"
 		]
 	},
+    	"AS7-P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"AS7-S (L)": {
 		"quirks": [
 			"AS7-HERO"
 		]
 	},
+    	"ASN-25": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"ASN-DD": {
 		"quirks": [
 			"ASN-DD",
@@ -278,11 +294,16 @@
 			"BJ-HERO"
 		]
 	},
-	"BL-6b-KNT": {
+	"BL-6B-KNT": {
 		"quirks": [
 			"SLDF"
 		]
 	},
+    	"BL-7-KNT-P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"BL-9-KNT": {
 		"quirks": [
 			"CLANBUSTER"
@@ -305,6 +326,13 @@
 			"BL-HERO"
 		]
 	},
+    	"BL-P-KNT2": {
+        	"quirks": [
+            		"MELEE",
+            		"BL-P-KNT2",
+            		"BL-HERO"
+        	]
+    	},
 	"Blackjack_MDL": {
 		"quirks": [
 			"IS",
@@ -350,6 +378,16 @@
 			"REPUTATIONPOOR"
 		]
 	},
+    	"BLR-1M": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
+    	"BNC-2P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"BNC-3E": {
 		"quirks": [
 			"REPUTATIONPOOR"
@@ -462,7 +500,7 @@
 			"REPUTATIONPOOR"
 		]
 	},
-	"CHP-1Nb": {
+	"CHP-1NB": {
 		"quirks": [
 			"SLDF"
 		]
@@ -481,77 +519,83 @@
 	},
 	"CN9-A": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-AH": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-AL": {
         	"quirks": [
-            	"QV_CENTURION_ENERGY"
+            		"QV_CENTURION_ENERGY"
         	]
     	},
     	"CN9-Ar": {
         	"quirks": [
-            	"QV_CENTURION_ENERGY"
+            		"QV_CENTURION_ENERGY"
         	]
     	},
     	"CN9-D": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-D3": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-D3D": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-D4D": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-D5": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-Da": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-H": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-H2": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-H2H": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-H3": {
         	"quirks": [
-            	"QV_CENTURION_BALLISTIC"
+            		"QV_CENTURION_BALLISTIC"
         	]
     	},
     	"CN9-H4": {
         	"quirks": [
-            	"QV_CENTURION_ENERGY"
+            		"QV_CENTURION_ENERGY"
+        	]
+    	},
+    	"CN9-P": {
+        	"quirks": [
+            		"MELEE",
+			"QV_CENTURION_BALLISTIC"
         	]
     	},
 	"CN9-YLW": {
@@ -562,6 +606,7 @@
 	},
 	"CN9-YLW2": {
 		"quirks": [
+			"MELEE",
 			"CN9-HERO",
 			"QV_CENTURION_HERO_YLW"
 		]
@@ -608,6 +653,11 @@
 			"PIRATEFRANKEN"
 		]
 	},
+    	"CP-10-P": {
+        	"quirks": [
+            	"MELEE"
+        	]
+    	},
 	"CP-S": {
 		"quirks": [
 			"CP-S",
@@ -623,6 +673,11 @@
     	"CPLT-C1": {
         	"quirks": [
             		"QV_CATAPULT_C"
+        	]
+    	},
+    	"CPLT-C1B": {
+        	"quirks": [
+            		"SLDF"
         	]
     	},
 	"CPLT-A1": {
@@ -728,7 +783,7 @@
 			"EASYTOMAINTAIN"
 		]
 	},
-	"CRB-27b": {
+	"CRB-27B": {
 		"quirks": [
 			"SLDF"
 		]
@@ -762,6 +817,11 @@
 			"COMMAND"
 		]
 	},
+    	"CTF-2P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"CTF-3X": {
 		"quirks": [
 			"HERO",
@@ -933,6 +993,11 @@
 			"QV_FIRESTARTER_HERO_FS"
 		]
 	},
+    	"GHR-5M": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"GHR-7X": {
 		"quirks": [
 			"PROTOTYPE"
@@ -978,6 +1043,16 @@
 			"GRF-HERO"
 		]
 	},
+    	"GRF-1P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
+    	"GRF-2N": {
+        	"quirks": [
+            		"SLDF"
+        	]
+    	},
 	"GRF-6CS": {
 		"quirks": [
 			"CLANBUSTER"
@@ -1016,13 +1091,29 @@
 			"ARMOREDHEAD"
 		]
 	},
+    	"Hatchetman_MDL": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
+    	"HBK-4HP": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"HBK-GI": {
 		"quirks": [
 			"HBK-GI",
 			"HBK-HERO"
 		]
 	},
-	"HGN-732b": {
+    	"HCT-MA": {
+        	"quirks": [
+            	"HCT-MA",
+            	"HCT-HERO"
+        	]
+    	},
+	"HGN-732B": {
 		"quirks": [
 			"SLDF"
 		]
@@ -1039,6 +1130,13 @@
 			"HGN-HERO"
 		]
 	},
+    	"HGN-RS": {
+        	"quirks": [
+            		"MELEE",
+            		"HGN-RS",
+            		"HGN-HERO"
+        	]
+    	},
 	"HGN-SLDF": {
 		"quirks": [
 			"SLDF",
@@ -1054,7 +1152,8 @@
 	},
 	"Highlanderiic_MDL": {
 		"quirks": [
-			"CLAN"
+			"CLAN",
+			"COWL"
 		]
 	},
 	"Hollander_MDL": {
@@ -1064,6 +1163,18 @@
 		],
 		"scale": "X=0.8 Y=0.8 Z=0.8"
 	},
+    	"HTM-26P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
+    	"HTM-ON": {
+        	"quirks": [
+            		"MELEE",
+            		"HTM-ON",
+            		"HTM-HERO"
+        	]
+    	},
 	"HTM-SG": {
 		"quirks": [
 			"HTM-SG",
@@ -1156,7 +1267,7 @@
 			"JVN-HERO"
 		]
 	},
-	"KGC-000b": {
+	"KGC-000B": {
 		"quirks": [
 			"SLDF"
 		]
@@ -1197,6 +1308,11 @@
 			"RUGGED"
 		]
 	},
+    	"KTO-18P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"KTO-19b": {
 		"quirks": [
 			"SLDF"
@@ -1472,6 +1588,11 @@
 			"NSR-DIFFICULTTOMAINTAIN"
 		]
 	},
+    	"NSR-9J": {
+        	"quirks": [
+            		"SLDF"
+        	]
+    	},
 	"NSR-WD": {
 		"quirks": [
 			"NSR-WD",
@@ -1531,7 +1652,8 @@
 	"Panther_MDL": {
 		"quirks": [
 			"IS",
-			"TARGETINGIMPROVED"
+			"TARGETINGIMPROVED",
+            		"NIMBLEJUMPER"
 		]
 	},
 	"Phoenixhawk_MDL": {
@@ -1546,7 +1668,7 @@
 			"PNT-HERO"
 		]
 	},
-	"PXH-1b": {
+	"PXH-1B": {
 		"quirks": [
 			"SLDF"
 		]
@@ -1561,6 +1683,11 @@
 			"SLDF"
 		]
 	},
+    	"PXH-1P": {
+    	    "quirks": [
+            		"MELEE"
+        	]
+    	},
 	"PXH-7CS": {
 		"quirks": [
 			"CLANBUSTER"
@@ -1584,12 +1711,24 @@
 			"PXH-HERO"
 		]
 	},
+    	"QKD-5P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"QKD-IV4": {
 		"quirks": [
 			"QKD-IV4",
 			"QKD-HERO"
 		]
 	},
+    	"QKD-SC": {
+        	"quirks": [
+            		"MELEE",
+            		"QKD-SC",
+            		"QKD-HERO"
+        ]
+    },
 	"QKD-WW": {
 		"quirks": [
 			"HERO",
@@ -1752,6 +1891,11 @@
 			"CLANBUSTER"
 		]
 	},
+    	"SHD-1P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"SHD-1R": {
 		"quirks": [
 			"PRIMITIVE"
@@ -1904,6 +2048,11 @@
         	"scale": "X=0.8 Y=0.8 Z=0.8"
     	},
 	"TBR-PRIME": {},
+    	"TBT-5P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"TBT-LG": {
 		"quirks": [
 			"TBT-LG",
@@ -1975,7 +2124,8 @@
 		"quirks": [
 			"IS",
 			"TWISTURBIE",
-			"UM-ASSAULT"
+			"UM-ASSAULT",
+            		"NARROW_PROFILE"
 		]
 	},
 	"Ursus_MDL": {
@@ -2007,12 +2157,22 @@
 			"VL-HERO"
 		]
 	},
+    	"VND-1P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"VND-1SIB": {
 		"quirks": [
 			"VND-1SIB",
 			"VND-HERO"
 		]
 	},
+    	"VTR-9P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"VTR-BSK": {
 		"quirks": [
 			"VTR-BSK",
@@ -2037,7 +2197,7 @@
 			"RUGGED2"
 		]
 	},
-	"WHM-6Rb": {
+	"WHM-6RB": {
 		"quirks": [
 			"SLDF"
 		]
@@ -2087,6 +2247,11 @@
 			"PROTOTYPE"
 		]
 	},
+    	"WVR-6P": {
+        	"quirks": [
+            		"MELEE"
+        	]
+    	},
 	"WVR-7H": {
 		"quirks": [
 			"WVR-7H",
