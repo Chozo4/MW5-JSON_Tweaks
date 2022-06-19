@@ -4526,5 +4526,1011 @@
 				"LeftLeg": -3
 			}
 		}
+	},
+	"QC_ANNIHILATOR":{
+		"name": "Urban Dominance",
+		"description": "Built to be the ultimate urban warfare battlemech, the Annihilator instills fear with just the thought that it may be waiting just around the corner.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties":{
+			"sensorFov": 360,
+			"armorMulti": 1.05
+		}
+	},
+	"QV_ANNIHILATOR_GAUSS":{
+		"name": "Gausszilla",
+		"description": "With such a slow speed, it wasn't rare for variants to crop up that utilized a multitude of Gauss Rifles to reach out and touch someone, a type of loadout that earned it a name worthy of its appearance.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Gauss",
+						"tags": [
+							"Weapon.Ballistic.GaussRifle"
+						],
+						"optimalRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_ANNIHILATOR_AC": {
+		"name": "Cannoneer",
+		"description": "Despite not being seen in centuries since the creation of the 1X, the Annihilators that could be seen in the battlefield often used the tech that was available to them, usually in the form of Autocannons.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Autocannon",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.Standard",
+							"Weapon.Ballistic.AutoCannon.Ultra",
+							"Weapon.Ballistic.Rifle"
+						],
+						"speedMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_ANNIHILATOR_LBX": {
+		"name": "Shotgunner",
+		"description": "The design that marked the Annihilator as something to be feared featured a quartet of LBX10s, able to fire cluster or slugs as the situation unfolded.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "LBX",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon.LBX"
+						],
+						"cooldownMulti": 0.95
+					}
+				]
+			}
+		}
+	},
+	"QV_ANNIHILATOR_PPC": {
+		"name": "Bolter",
+		"description": "What first started as a field-refit would later become another loadout of the Annihilator that could be feared, swapping the ballistics of the usual variants with a full energy-focused build.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"heatMulti": 0.95
+					},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon"
+						],
+						"heatMulti": 0.95
+					}
+				]
+			}
+		}
+	},
+	"QV_ANNIHILATOR_HERO": {
+		"name": "Hero: Mean Baby",
+		"description": "A Civil War era modification to the 1E variant, the Mean Baby replaces the lasers usually located in the side torsos with a quartet of Short-Range Missiles",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon"
+						],
+						"speedMulti": 1.2
+					},
+					{
+						"weaponGroupName": "SRM",
+						"tags": [
+							"Weapon.Missile.SRM"
+						],
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QC_BANSHEE":{
+		"name": "CQC Designed",
+		"description": "Designed for close-assault operations, the Banshee is both fast and well armored, but fails in comparison to its competition. Despite its shortcomings, it would end up proving effective in defensive melee combat thanks to its large fists, even when they weren't designed for combat.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties":{
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee"
+						],
+						"damageMulti": 1.1,
+						"cooldownMulti": 0.95
+					}
+				]
+			}
+		}
+	},
+	"QV_BANSHEE_HERO_LJ":{
+		"name": "Hero: Lumberjack",
+		"description": "A customized 3S built by Reinesblatt, the Lumberjack is built purposefully for close combat, replacing the PPCs for a Hatchet and swapping the SRM6 for an LRM10 for when the 'Mech can't reach its opponent.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"accelerationMulti": 1.2,
+			"decelerationMulti": 1.1,
+			"turnSpeedMulti": 1.1
+		}
+	},
+	"QV_BANSHEE_HERO_LM":{
+		"name": "Hero: La Malinche",
+		"description": "Adorned with Aztec-inspired art of Old Terra, the La Malinche comes equipped with a vast array of weaponry.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+						"cooldownMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					},
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile"
+						],
+						"heatMulti": 0.9,
+						"cooldownMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QV_BANSHEE_HERO_SR":{
+		"name": "Hero: Siren",
+		"description": "The personal 'Mech of Solaris Duelist Victor Vandergriff, this customized Banshee 5S comes equipped with jump jets for increased mobility.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"jumpJetFuelBurnTimeMulti": 1.1,
+			"jumpJetFuelRegenTimeMulti": 0.9,
+			"jumpJetHeatMulti": 0.9
+		}
+	},
+	"QV_BANSHEE_HERO_EXP":{
+		"name": "Prototype: 11X",
+		"description": "An experimental variant, the 11X was designed to take massive amounts of damage before it could fall. Only three of these chassis were ever produced.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"shieldingSkillBonus": 2,
+			"structureBonus": {
+				"LeftArm": 16,
+				"RightArm": 16,
+				"LeftLeg": 16,
+				"RightLeg": 16
+			}
+		}
+	},
+	"QC_CATAPHRACT":{
+		"name": "FrankenMech at Heart",
+		"description": "TBD",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties" :{
+		}
+	},
+	"QV_CATAPHRACT_X":{
+		"name": "Initial Prototypes",
+		"description": "TBD",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+		}
+	},
+	"QV_CATAPHRACT_LIAO":{
+		"name": "Capellan Production",
+		"description": "TBD",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+		}
+	},
+	"QV_CATAPHRACT_DAVION":{
+		"name": "FedSun Production",
+		"description": "TBD",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+		}
+	},
+	"QV_CATAPHRACT_HERO_IM": {
+		"name": "Hero: Ilya Muromets",
+		"description": "TBD",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+		}
+	},
+	"QV_CATAPHRACT_HERO_X": {
+		"name": "Hero: Lucky Thirteen",
+		"description": "TBD",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+		}
+	},
+	"QV_CATAPHRACT_HERO_MOC": {
+		"name": "Hero: Magestrix",
+		"description": "TBD",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+		}
+	},
+	"QV_CATAPHRACT_HERO_WD": {
+		"name": "Hero: White Death",
+		"description": "TBD",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+		}
+	},
+	
+	"QC_CATAPULT":{
+		"name": "Second-Line Fire-Support",
+		"description": "A design that lasted for over a millenia, the Catapult initially failed to impress when its production contract with the Terran Hegemoney failed to be renewed, but it would ultimately stand the test of time as it became the backbone of many armies.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties":{
+			"sensorRangeBonus": 150,
+			"jumpJetFuelRegenTimeMulti": 0.95
+		}
+	},
+	"QV_CATAPULT_A":{
+		"name": "A Series",
+		"description": "The only variant of its kind built without any backup weapons, the freed space allows it to have more ammo and therefore, more time on the field supporting its forces with its LRMs.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"missleCooldownMulti": 0.95,
+				"lockonTimeMulti": 0.9
+			}
+		}
+	},
+	"QV_CATAPULT_C": {
+		"name": "C Series",
+		"description": "The C series of Catapult variants focuses primarily on its missile-based indirect-fire support role.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "LRM",
+						"tags": [
+							"Weapon.Missile.LRM",
+							"Weapon.ArtemisMissile.LRM"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_C6": {
+		"name": "C6 Field Refit",
+		"description": "The C6 was based on the C5 variant, removing the Arrow IV artillery to swap it for a set of Plasma Rifles.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"maxRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_H": {
+		"name": "H Series",
+		"description": "A Periphery born refit, the H series mix the roles of the C and K series together, providing one arm with missiles and another with energy.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"missleHeatMulti": 0.95,
+				"ppcHeatMulti": 0.95
+			}
+		}
+	},
+	"QV_CATAPULT_K": {
+		"name": "K Series",
+		"description": "Unlike the more common C series, the K series produced by House Kurita focus more on the direct-fire support role.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy.Laser",
+							"Weapon.Energy.ParticleCannon"
+						],
+						"optimalRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_K5": {
+		"name": "K Series",
+		"description": "Unlike the more common C series, the K series produced by House Kurita focus more on the direct-fire support role.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "MRM",
+						"tags": [
+							"Weapon.Missile.LRM.LRM10.MRM10",
+							"Weapon.Missile.LRM.LRM20.MRM20",
+							"Weapon.Missile.LRM.LRM20.MRM30",
+							"Weapon.Missile.LRM.LRM20.MRM40"
+						],
+						"speedMulti": 1.05
+					},
+					{
+						"weaponGroupName": "SRM",
+						"tags": [
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM"
+						],
+						"speedMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_K6": {
+		"name": "K6 Field Refit",
+		"description": "A Kuritan model based on the K5, the K6 goes back to its roots of indirect-fire support, focusing on keeping its missiles always in range and at the ready.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "LRM",
+						"tags": [
+							"Weapon.Missile.LRM",
+							"Weapon.ArtemisMissile.LRM"
+						],
+						"nullRangeMulti": 0.9,
+						"minRangeMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_HERO_BB": {
+		"name": "Hero: Butterbee",
+		"description": "The personal ride of Jenny Templeton of the Chesterson Reserves, this modification to the C1 variant exchanges the long-range missiles for a quartet of Short-Range Missiles to catch unwary attackers off-guard.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "SRM",
+						"tags": [
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM"
+						],
+						"heatMulti": 0.9,
+						"speedMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_HERO_J": {
+		"name": "Hero: Jester",
+		"description": "Piloted by Leigh Voss, this grinning cat is a departure from the regular K2 variant by being solely composed of energy hardpoints, atop of two AMS that help keep it safe from other opposing Catapults.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"amsMaxRangeMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"optimalRangeMulti": 1.2
+					}
+				]
+			}
+		}
+	},
+	"QV_CATAPULT_HERO_LN": {
+		"name": "Hero: Lightning",
+		"description": "Piloted by Blixt, the Lightning gains its name from the characteristic thunderous sound of its PPCs, combined with its increased quickness and mobility when compared to other 'Mechs of its kind.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"accelerationMulti": 1.1,
+			"decelerationMulti": 1.1,
+			"turnSpeedMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"optimalRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QC_CATAPULT2":{
+		"name": "Second-Generation Fire-Support",
+		"description": "An evolution of the original Catapult designed to be used with newly developed TSEMP cannons while still maintaining its indirect-fire support role.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties":{
+			"sensorRangeBonus": 200,
+			"lockonTimeMulti": 0.8,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "PPC",
+						"tags": [
+							"Weapon.Energy.ParticleCannon"
+						],
+						"speedMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QC_CENTURION":{
+		"name": "Shieldbearer Mk IX",
+		"description": "Designed to be paired up with the Trebuchet BattleMech, the Centurion became popular for its ability to withstand and survive any encounter.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties" :{
+			"armorMulti": 1.05,
+			"armorBonus":{
+				"LeftArm": 24
+			},
+			"structureBonus": {
+				"LeftArm": 16
+			}
+		}
+	},
+	"QC_CENTURION_OMNI":{
+		"name": "Shieldbearer Omni",
+		"description": "The final form of the venerable Centurion, the use of OmniMech technology allows it to switch its gun arms freely.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties" :{
+			"armorMulti": 1.05,
+			"armorBonus":{
+				"LeftArm": 16
+			},
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"speedMulti": 1.05
+					},
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"maxRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QC_CENTURION_TEN":{
+		"name": "Shieldbearer Mk X",
+		"description": "An evolution of the original model, the CN10 chassis is 5 tons heavier, allowing it to use a variety of upgrades such as increased armor, all without sacrificing speed thanks to the upgraded engine.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties" :{
+			"armorMulti": 1.1,
+			"armorBonus":{
+				"LeftArm": 16
+			}
+		}
+	},
+	"QV_CENTURION_BALLISTIC":{
+		"name": "Gun Arm: Ballistic",
+		"description": "The more common and popular of the variants usually come with a high-caliber ballistic weapon equipped on its right arm, such as an AC/10 or even the feared AC/20.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"speedMulti": 1.05
+					}
+				]
+			}	
+		}
+	},
+	"QV_CENTURION_ENERGY":{
+		"name": "Gun Arm: Energy",
+		"description": "Although less feared than its ballistic counterparts, Centurions with an energy-focused gun arm can become just as fearsome from a further distance as they are less ammo dependent.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"maxRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_CENTURION_HERO_YLW":{
+		"name": "Hero: Yen-Lo-Wang",
+		"description": "More than just a Centurion variant that became the face of the Solaris Arenas, the Yen-Lo-Wang spanned hundreds of years and generations as it was passed on, and always remained effective on where it was born.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Melee",
+						"tags": [
+							"Weapon.Melee"
+						],
+						"damageMulti": 1.25
+					},
+					{
+						"weaponGroupName": "Ballistic",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+						"cooldownMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QC_FIRESTARTER":{
+		"name": "Incendiary Standard",
+		"description": "The Firestarter was first designed entirely around its Flamers, and its success would later make it the standard for which all incendiary mechs strived to achieve.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer"
+						],
+						"heatMulti": 0.95,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_FIRESTARTER_MIRAGE":{
+		"name": "Mirage",
+		"description": "The -M variants of the Firestarter, often nicknamed Mirage, traded the well known flamers for the more common laser array, setting it up as a front-line unit.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"cooldownMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QV_FIRESTARTER_SCOUT":{
+		"name": "Scout",
+		"description": "The -S variants of the Firestarter were refit for use as scouts, often installing Active Probes, ECMs or AMS for survival.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"sensorRangeMulti": 1.1
+		}
+	},
+	"QV_FIRESTARTER_STD":{
+		"name": "Standard",
+		"description": "The regular standard build of the Firestarter focuses on a mix of lasers and machine-guns for close-range combat.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"cooldownMulti": 0.95
+					},
+					{
+						"weaponGroupName": "MG",
+						"tags": [
+							"Weapon.Ballistic.MG"
+						],
+						"optimalRangeMulti": 1.05,
+						"maxRangeMulti": 1.05
+					}
+				]
+			}
+		}
+	},
+	"QV_FIRESTARTER_HERO_EXP":{
+		"name": "Prototype: 81X",
+		"description": "One of the three prototypes developed by Defiance Industries, the FS9-81X used the FS9-H as a base to further improve its incendiary loadout - equipping a Plasma Rifle and an XXL Engine while keeping the original array of flamers.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"heatCapacityBonus": 10,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Plasma Rifle",
+						"tags": [
+							"Weapon.Energy.ParticleCannon.LPPC.PlasmaR"
+						],
+						"heatMulti": 0.85,
+						"speedMulti": 1.2
+					}
+				]
+			}
+		}
+	},
+	"QV_FIRESTARTER_HERO_EMBER":{
+		"name": "Hero: Ember",
+		"description": "Appropriately named for its loadout, the Ember lets loose with its mix of flamers and machine guns, ignoring lasers entirely.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"heatCapacityBonus": 10,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Flamer",
+						"tags": [
+							"Weapon.Energy.Flamer"
+						],
+						"damageMulti": 1.05
+					},
+					{
+						"weaponGroupName": "MG",
+						"tags": [
+							"Weapon.Ballistic.MG"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_FIRESTARTER_HERO_FS":{
+		"name": "Hero: Firestorm",
+		"description": "Used by a member of Phillip Capet's Capellan Mafia during their final duel against Justin Allard in Solaris VII, the Firestorm focuses entirely on its arm-mounted ballistic weaponry.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "MG",
+						"tags": [
+							"Weapon.Ballistic.MG"
+						],
+						"optimalRangeMulti": 1.2,
+						"maxRangeMulti": 1.2
+					}
+				]
+			}
+		}
+	},
+	"QC_MARAUDER":{
+		"name": "Command 'Mech",
+		"description": "One of the most well known 'Mechs in existence, the Marauder was built for use as an attack and direct-fire support 'Mech, but its popularity and impressive firepower ensured its place as the 'Mech of choice for leaders of a Lance.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties": {
+			"sensorRangeBonus": 250,
+			"sensorFov": 360
+		}
+	},
+	"QV_MARAUDER_DAVION":{
+		"name": "FedSuns Refit",
+		"description": "Although the Federated Suns tend to be well known for their love of Autocannons, the Davion commissioned refits usually replaced the Autocannon for a Large Laser, creating a less ammo dependent build.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_MARAUDER_LIAO":{
+		"name": "Capellan Refit",
+		"description": "The Capellan Confederation variants of the Marauder replaced the heat intensive PPCs for less intensive Large Lasers, ensuring the design was less prone to overheating.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"heatMulti": 0.95,
+						"durationMulti": 0.95
+					}
+				]
+			}
+		}
+	},
+	"QV_MARAUDER_MARIK":{
+		"name": "Free Worlds Refit",
+		"description": "While somewhat similar to the Capellan style of refit thanks to the overabundance of Large Lasers in stock, the later variations from the Free Worlds would focus more on the mobility of the 'Mech.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"jumpJetFuelRegenTimeMulti": 0.9,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"heatMulti": 0.95
+					}
+				]
+			}
+		}
+	},
+	"QV_MARAUDER_STEINER":{
+		"name": "Lyran Refit",
+		"description": "A style of loadout that arrived much later after the events of the Jihad, the Lyran fits usually stuck to the mantra of the standard fits, but often replacing the Autocannon for a Gauss Rifle.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Projectile",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon",
+							"Weapon.Ballistic.GaussRifle",
+							"Weapon.Ballistic.Rifle",
+							"Weapon.Energy.ParticleCannon"
+						],
+						"maxRangeMulti": 1.15
+					}
+				]
+			}
+		}
+	},
+	"QV_MARAUDER_STD":{
+		"name": "Standard Fit",
+		"description": "The Standard fit of the 'Mech focused on keeping the distance, using its PPCs and Autocannon to keep enemies at bay.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Projectile",
+						"tags": [
+							"Weapon.Ballistic.AutoCannon",
+							"Weapon.Ballistic.GaussRifle",
+							"Weapon.Ballistic.Rifle",
+							"Weapon.Energy.ParticleCannon"
+						],
+						"speedMulti": 1.05,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_MARAUDER_HERO_EXP":{
+		"name": "Prototype: 4X",
+		"description": "Designed by Ronin Incorporated during the War of 3039, the 4X Marauder was a last attempt at effectively using the heat intensive Binary Lasers, utilizing the latest in prototype technology to make the heat as bearable as possible.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"heatCapacityBonus": 10,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Laser",
+						"tags": [
+							"Weapon.Energy.Laser"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Blaser",
+						"tags": [
+							"Weapon.Energy.Laser.Binary"
+						],
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QV_MARAUDER_HERO_BH":{
+		"name": "Hero: Bounty Hunter",
+		"description": "The most well known and most spoken of MechWarrior in history, all people know about the person that is only known as the Bounty Hunter is their 'Mech of choice, often a Marauder laden with LosTech weaponry and equipment",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon"
+						],
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QC_STALKER":{
+		"name": "Combat Computer",
+		"description": "The Stalker is well known for making use of an advanced Combat Computer that helps manage heat levels more efficiently.",
+		"color": "(R=0.5,G=1.0,B=0.0,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Weapon",
+						"tags": [
+							"Weapon"
+						],
+						"heatMulti": 0.95
+					}
+				]
+			}
+		}
+	},
+	"QV_STALKER_ENERGY":{
+		"name": "Energy Focused",
+		"description": "These variants of Stalkers were known for focusing more on direct-fire support power through its energy weapons.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_STALKER_MISSILE":{
+		"name": "Missile Focused",
+		"description": "These variants of Stalkers were known for focusing more on indirect-fire support power through its missilery.",
+		"color": "(R=0.5,G=0.0,B=0.7,A=1)",
+		"properties": {
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Missile",
+						"tags": [
+							"Weapon.Missile",
+							"Weapon.ArtemisMissile"
+						],
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1
+					}
+				]
+			}
+		}
+	},
+	"QV_STALKER_HERO_JAGAWEN":{
+		"name": "Hero: Sword of Light",
+		"description": "The personal 'Mech of Jagawen Torisobo, the commander of the DCMS Eighth Sword of Light that fought in the Battle of Misery against the Wolf's Dragoons, it exchanges the usual LRMs of the Stalker for an additional set of SRM6s on each side torso, making it a fearsome close-range brawler.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"torsoTwistAngleMulti": 1.2,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "SRM",
+						"tags": [
+							"Weapon.Missile.SRM",
+							"Weapon.ArtemisMissile.SRM"
+						],
+						"spreadRadiusMulti": 0.9,
+						"heatMulti": 0.9
+					}
+				]
+			}
+		}
+	},
+	"QV_STALKER_HERO_MISERY":{
+		"name": "Hero: Misery",
+		"description": "The personal 'Mech of J. Elliot Jamison, the commander of the Wolf's Dragoons Zeta Battalion. In the Battle of Misery against the DMCS, Jamison's Stalker offered a wild change from the standard Stalker by fielding a LosTech Gauss Rifle in the left torso, but later after the Clan Invasion, Jamison's Misery would go back to its roots under the form of a Clan-tech enhanced Stalker.",
+		"color": "(R=1.0,G=0.84,B=0.0,A=1)",
+		"properties": {
+			"structureMulti": 1.1,
+			"torsoTwistRateMulti": 1.2,
+			"weapons": {
+				"groups": [
+					{
+						"weaponGroupName": "Ballistics",
+						"tags": [
+							"Weapon.Ballistic"
+						],
+						"heatMulti": 0.9
+					},
+					{
+						"weaponGroupName": "Artemis-equipped Missile",
+						"tags": [
+							"Weapon.ArtemisMissile"
+						],
+						"heatMulti": 0.95,
+						"cooldownMulti": 0.95
+					}
+				]
+			}
+		}
 	}
 }
